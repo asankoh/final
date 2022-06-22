@@ -1,0 +1,21 @@
+.heroOne{
+max-width: 900px;
+height: 260px;
+background-image: url(../img/about-img/blog.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 120px auto;
+
+    .date{
+        width: 60px;
+        height: 60px;
+        background-color: #79ADDC;
+        color: #fff;
+        margin: 0 40px;
+        }
+        
+}

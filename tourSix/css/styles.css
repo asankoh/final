@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: GillSansReg;
+  src: url(fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: GillSansB;
+  src: url(fonts/GillSansBold.otf);
+}
+@font-face {
+  font-family: GillSansI;
+  src: url(fonts/GillSansItalic.otf);
+}
+@font-face {
+  font-family: GillSansBI;
+  src: url(fonts/GillSansBoldItalic.otf);
+}
+@font-face {
+  font-family: PTSerif;
+  src: url(fonts/PTSerif-Regular.ttc);
+}
+@font-face {
+  font-family: PTSerif-I;
+  src: url(fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: PTSerif-BI;
+  src: url(fonts/PTSerif-BoldItalic.ttf);
+}
+@font-face {
+  font-family: PTSerif-B;
+  src: url(fonts/PTSerif-Bold.ttf);
+}
+.nav-wrapper {
+  height: 90px;
+  width: 100%;
+}
+.nav-wrapper nav {
+  max-width: 980px;
+  height: 70px;
+  margin: 0 auto;
+  border-bottom: solid 2px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav-wrapper nav .logo {
+  position: relative;
+  min-width: 92px;
+  min-height: 42px;
+  border: solid 2px #000;
+}
+.nav-wrapper nav .logo span {
+  position: absolute;
+  color: #000;
+  bottom: -5px;
+  font-family: GillSans;
+  font-size: 20px;
+}
+.nav-wrapper nav .links {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.nav-wrapper nav .links a {
+  text-decoration: none;
+  color: #000;
+  font-family: GillSansB;
+  margin-left: 10px;
+}
+.nav-wrapper nav .links span {
+  color: #79ADDC;
+}
+
+@media only all and (max-width: 980px) {
+  .nav-wrapper nav {
+    padding: 0 30px;
+  }
+}
+@media only all and (max-width: 980px) {
+  .nav-wrapper nav {
+    padding: 0 30px;
+  }
+}
+.content {
+  max-width: 980px;
+  min-height: 413px;
+  margin: 0 auto;
+}
+.content .big-image {
+  max-width: 980px;
+  height: 410px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 30, 30, 0.5)), to(rgba(30, 30, 30, 0.5))), url(../img/tour/tour-06.jpg);
+  background-image: linear-gradient(to bottom, rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url(../img/tour/tour-06.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: -20px;
+}
+.content .big-image h1 {
+  font-size: 80px;
+  color: #fff;
+  margin-top: -300px;
+  margin-right: 275px;
+}
+.content .image-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 70px;
+}
+.content .image-row .imageOne {
+  width: 300px;
+  height: 350px;
+  background-image: url(../img/egypt-tour/egypt-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .image-row .imageTwo {
+  width: 300px;
+  height: 350px;
+  background-image: url(../img/egypt-tour/egypt-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .image-row .imageThree {
+  width: 300px;
+  height: 350px;
+  background-image: url(../img/egypt-tour/egypt-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .text-content {
+  padding-top: 30px;
+}
+.content .text-content .headline {
+  width: 80%;
+  font-size: 25px;
+  position: relative;
+  display: inline;
+  font-family: GillSansBI;
+  bottom: 20px;
+}
+.content .text-content span {
+  width: 80%;
+  border-bottom: 2px solid #000;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+}
+.content .text-content p {
+  font-size: 16px;
+  font-family: GillSansB;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 980px) {
+  .content .big-image h1 {
+    font-size: 46px;
+  }
+}
+footer {
+  height: 100px;
+  background-color: #79ADDC;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .logo {
+  position: relative;
+  width: 92px;
+  min-height: 42px;
+  border: solid 2px #fff;
+  left: -400px;
+}
+footer .logo span {
+  position: absolute;
+  color: #fff;
+  bottom: -5px;
+  font-family: GillSans;
+  font-size: 20px;
+}
+footer .copyright {
+  text-align: center;
+  color: #fff;
+}
+footer i {
+  color: #fff;
+  padding: 15px;
+  position: relative;
+  right: -375px;
+}
+
+@media (max-width: 980px) {
+  footer {
+    margin: 0 auto 0 auto;
+  }
+}

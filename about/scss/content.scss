@@ -1,0 +1,127 @@
+.contentOne{
+   max-width: 980px;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+   padding-top: 100px;
+
+
+   .headline{
+    width: 80%;
+    font-size: 60px;
+    position: relative;
+    display: inline;
+    font-family: ProNovaL;
+    bottom: 20px;
+}
+
+span{
+    width: 80%;
+    border-bottom: 2px solid #000;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+}
+
+p{
+    font-size: 16px;
+    font-family: GillSansB;
+    margin-bottom: 70px;
+
+}
+
+
+
+}
+
+.contentTwo{
+    max-width: 980px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+.sub-headline{
+    width: 80%;
+    font-size: 40px;
+    position: relative;
+    display: inline;
+    font-family: ProNovaL;
+    bottom: 20px;
+}
+span{
+    width: 80%;
+    border-bottom: 2px solid #000;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+}
+.imageOne{
+    width: 260px;
+    height: 150px;
+     background-image: url(../img/about-img/about-client-01.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+.text-field{
+width: 500px;
+position: relative;
+right: -275px;
+top: -150px;
+
+.sub-text{
+width: 385px;
+height: 100px;
+font-family: GillSansBI;
+}
+
+.name{
+    font-size: 20px;
+    position: absolute;
+    color: #79ADDC;
+    right: 0;
+}
+
+
+}
+}
+
+.contentThree{
+    max-width: 980px;
+    align-items: center;
+    margin: -80px auto 100px;
+
+    .imageTwo{
+        width: 260px;
+        height: 150px;
+         background-image: url(../img/about-img/about-client-02.jpg);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+
+    }
+
+    .text-field-two{
+        width: 500px;
+        position: relative;
+        right: -275px;
+        top: -150px;
+        
+        .sub-text-two{
+        width: 385px;
+        height: 100px;
+        font-family: GillSansBI;
+
+        }
+        
+        .nameTwo{
+            font-size: 20px;
+            position: absolute;
+            color: #79ADDC;
+            right: 0;
+        }
+
+}
+}

@@ -1,0 +1,104 @@
+.content{
+    max-width: 980px;
+    min-height: 413px;
+    margin: 0 auto;
+
+
+.big-image{
+    max-width: 980px;
+    height: 410px;
+    background-image: linear-gradient(to bottom, rgba(30,30,30,.5), rgba(30,30,30,.5)),url(../img/tour/tour-07.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: -20px;
+
+
+    h1{
+        font-size: 80px;
+        color: #fff;
+        margin-top: -300px;
+        margin-right: 275px;
+    }
+
+    
+
+}
+
+.image-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+
+
+    .imageOne{
+        width: 300px;
+        height: 350px;
+        background-image: url(../img/japan-tour/japan-tour-01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .imageTwo{
+        width: 300px;
+        height: 350px;
+        background-image: url(../img/japan-tour/japan-tour-02.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .imageThree{
+        width: 300px;
+        height: 350px;
+        background-image: url(../img/japan-tour/japan-tour-03.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+.text-content{
+    padding-top: 30px;
+
+.headline{
+    width: 80%;
+    font-size: 25px;
+    position: relative;
+    display: inline;
+    font-family: GillSansBI;
+    bottom: 20px;
+}
+
+span{
+    width: 80%;
+    border-bottom: 2px solid #000;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+}
+
+p{
+    font-size: 16px;
+    font-family: GillSansB;
+    margin-bottom: 70px;
+
+}
+
+}
+}
+@media (max-width:980px){
+    .content{
+        .big-image{
+            h1{
+                font-size: 46px;
+            }
+        }
+    }
+    
+}

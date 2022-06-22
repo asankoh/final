@@ -1,0 +1,545 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: GillSansReg;
+  src: url(fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: GillSansB;
+  src: url(fonts/GillSansBold.otf);
+}
+@font-face {
+  font-family: GillSansI;
+  src: url(fonts/GillSansItalic.otf);
+}
+@font-face {
+  font-family: GillSansBI;
+  src: url(fonts/GillSansBoldItalic.otf);
+}
+@font-face {
+  font-family: PTSerif;
+  src: url(fonts/PTSerif-Regular.ttc);
+}
+@font-face {
+  font-family: PTSerif-I;
+  src: url(fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: PTSerif-BI;
+  src: url(fonts/PTSerif-BoldItalic.ttf);
+}
+@font-face {
+  font-family: PTSerif-B;
+  src: url(fonts/PTSerif-Bold.ttf);
+}
+.nav-wrapper {
+  height: 90px;
+  width: 100%;
+}
+.nav-wrapper nav {
+  max-width: 980px;
+  height: 70px;
+  margin: 0 auto;
+  border-bottom: solid 2px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav-wrapper nav .logo {
+  position: relative;
+  min-width: 92px;
+  min-height: 42px;
+  border: solid 2px #000;
+}
+.nav-wrapper nav .logo span {
+  position: absolute;
+  color: #000;
+  bottom: -5px;
+  font-family: GillSans;
+  font-size: 20px;
+}
+.nav-wrapper nav .links {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.nav-wrapper nav .links a {
+  text-decoration: none;
+  color: #000;
+  font-family: GillSansB;
+  margin-left: 10px;
+}
+.nav-wrapper nav .links span {
+  color: #79ADDC;
+}
+
+@media only all and (max-width: 980px) {
+  .nav-wrapper nav {
+    padding: 0 30px;
+  }
+}
+@media only all and (max-width: 980px) {
+  .nav-wrapper nav {
+    padding: 0 30px;
+  }
+}
+.content {
+  max-width: 980px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.content .headline-image {
+  width: 980px;
+  height: 200px;
+  background-image: url(../img/tour/tours-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .headline-image .headline {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.content .rowOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+.content .rowOne .imageOne {
+  width: 236px;
+  height: 304px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.4)), to(rgba(50, 50, 50, 0.4))), url(../img/tour/tour-01.jpg);
+  background-image: linear-gradient(rgba(50, 50, 50, 0.4), rgba(50, 50, 50, 0.4)), url(../img/tour/tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .rowOne .imageOne .title {
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.content .rowOne .imageOne p {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -25px;
+}
+.content .rowOne .imageOne button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 100px auto;
+  color: #fff;
+  background-color: #79ADDC;
+  border-radius: 24px;
+  padding: 8px 20px;
+  border: none;
+}
+.content .rowOne .imageTwo {
+  width: 236px;
+  height: 304px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.4)), to(rgba(50, 50, 50, 0.4))), url(../img/tour/tour-02.jpg);
+  background-image: linear-gradient(rgba(50, 50, 50, 0.4), rgba(50, 50, 50, 0.4)), url(../img/tour/tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .rowOne .imageTwo .titleTwo {
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.content .rowOne .imageTwo p {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -25px;
+}
+.content .rowOne .imageTwo .buttonTwo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 100px auto;
+  color: #fff;
+  background-color: #79ADDC;
+  border-radius: 24px;
+  padding: 8px 20px;
+  border: none;
+}
+.content .rowOne .imageThree {
+  width: 236px;
+  height: 304px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.4)), to(rgba(50, 50, 50, 0.4))), url(../img/tour/tour-03.jpg);
+  background-image: linear-gradient(rgba(50, 50, 50, 0.4), rgba(50, 50, 50, 0.4)), url(../img/tour/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .rowOne .imageThree .titleThree {
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.content .rowOne .imageThree p {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -25px;
+}
+.content .rowOne .imageThree .buttonThree {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 100px auto;
+  color: #fff;
+  background-color: #79ADDC;
+  border-radius: 24px;
+  padding: 8px 20px;
+  border: none;
+}
+.content .rowTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+.content .rowTwo .imageFour {
+  width: 236px;
+  height: 304px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.4)), to(rgba(50, 50, 50, 0.4))), url(../img/tour/tour-04.jpg);
+  background-image: linear-gradient(rgba(50, 50, 50, 0.4), rgba(50, 50, 50, 0.4)), url(../img/tour/tour-04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .rowTwo .imageFour .titleFour {
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.content .rowTwo .imageFour p {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -25px;
+}
+.content .rowTwo .imageFour .buttonFour {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 100px auto;
+  color: #fff;
+  background-color: #79ADDC;
+  border-radius: 24px;
+  padding: 8px 20px;
+  border: none;
+}
+.content .rowTwo .imageFive {
+  width: 236px;
+  height: 304px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.4)), to(rgba(50, 50, 50, 0.4))), url(../img/tour/tour-05.jpg);
+  background-image: linear-gradient(rgba(50, 50, 50, 0.4), rgba(50, 50, 50, 0.4)), url(../img/tour/tour-05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .rowTwo .imageFive .titleFive {
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.content .rowTwo .imageFive p {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -25px;
+}
+.content .rowTwo .imageFive .buttonFive {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 100px auto;
+  color: #fff;
+  background-color: #79ADDC;
+  border-radius: 24px;
+  padding: 8px 20px;
+  border: none;
+}
+.content .rowTwo .imageSix {
+  width: 236px;
+  height: 304px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.4)), to(rgba(50, 50, 50, 0.4))), url(../img/tour/tour-06.jpg);
+  background-image: linear-gradient(rgba(50, 50, 50, 0.4), rgba(50, 50, 50, 0.4)), url(../img/tour/tour-06.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .rowTwo .imageSix .titleSix {
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.content .rowTwo .imageSix p {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -25px;
+}
+.content .rowTwo .imageSix .buttonSix {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 100px auto;
+  color: #fff;
+  background-color: #79ADDC;
+  border-radius: 24px;
+  padding: 8px 20px;
+  border: none;
+}
+.content .rowThree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.content .rowThree .imageSeven {
+  width: 236px;
+  height: 304px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.4)), to(rgba(50, 50, 50, 0.4))), url(../img/tour/tour-07.jpg);
+  background-image: linear-gradient(rgba(50, 50, 50, 0.4), rgba(50, 50, 50, 0.4)), url(../img/tour/tour-07.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .rowThree .imageSeven .titleSeven {
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.content .rowThree .imageSeven p {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -25px;
+}
+.content .rowThree .imageSeven .buttonSeven {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 100px auto;
+  color: #fff;
+  background-color: #79ADDC;
+  border-radius: 24px;
+  padding: 8px 20px;
+  border: none;
+}
+.content .rowThree .imageEight {
+  width: 236px;
+  height: 304px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.4)), to(rgba(50, 50, 50, 0.4))), url(../img/tour/tour-08.jpg);
+  background-image: linear-gradient(rgba(50, 50, 50, 0.4), rgba(50, 50, 50, 0.4)), url(../img/tour/tour-08.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .rowThree .imageEight .titleEight {
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.content .rowThree .imageEight p {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -25px;
+}
+.content .rowThree .imageEight .buttonEight {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 100px auto;
+  color: #fff;
+  background-color: #79ADDC;
+  border-radius: 24px;
+  padding: 8px 20px;
+  border: none;
+}
+.content .rowThree .imageNine {
+  width: 236px;
+  height: 304px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.4)), to(rgba(50, 50, 50, 0.4))), url(../img/tour/tour-09.jpg);
+  background-image: linear-gradient(rgba(50, 50, 50, 0.4), rgba(50, 50, 50, 0.4)), url(../img/tour/tour-09.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .rowThree .imageNine .titleNine {
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.content .rowThree .imageNine p {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -25px;
+}
+.content .rowThree .imageNine .buttonNine {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 100px auto;
+  color: #fff;
+  background-color: #79ADDC;
+  border-radius: 24px;
+  padding: 8px 20px;
+  border: none;
+}
+
+footer {
+  height: 100px;
+  background-color: #79ADDC;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .logo {
+  position: relative;
+  width: 92px;
+  min-height: 42px;
+  border: solid 2px #fff;
+  left: -400px;
+}
+footer .logo span {
+  position: absolute;
+  color: #fff;
+  bottom: -5px;
+  font-family: GillSans;
+  font-size: 20px;
+}
+footer .copyright {
+  text-align: center;
+  color: #fff;
+}
+footer i {
+  color: #fff;
+  padding: 15px;
+  position: relative;
+  right: -375px;
+}
+
+@media (max-width: 980px) {
+  footer {
+    margin: 0 auto 0 auto;
+  }
+}

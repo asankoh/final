@@ -1,0 +1,115 @@
+.contentOne {
+  max-width: 980px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.contentOne .headline {
+  width: 80%;
+  font-size: 60px;
+  position: relative;
+  display: inline;
+  font-family: ProNovaL;
+  bottom: 20px;
+}
+.contentOne span {
+  width: 80%;
+  border-bottom: 2px solid #000;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+}
+.contentOne p {
+  font-size: 16px;
+  font-family: GillSansB;
+  margin-bottom: 70px;
+}
+
+.contentTwo {
+  max-width: 980px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.contentTwo .sub-headline {
+  width: 80%;
+  font-size: 40px;
+  position: relative;
+  display: inline;
+  font-family: ProNovaL;
+  bottom: 20px;
+}
+.contentTwo span {
+  width: 80%;
+  border-bottom: 2px solid #000;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+}
+.contentTwo .imageOne {
+  width: 200px;
+  height: 287px;
+  background-image: url(../img/about-img/about-client-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contentTwo .text-field {
+  width: 500px;
+  position: relative;
+  right: -275px;
+  top: -150px;
+}
+.contentTwo .text-field .sub-text {
+  width: 385px;
+  height: 100px;
+  font-family: GillSansBI;
+}
+.contentTwo .text-field .name {
+  font-size: 20px;
+  position: absolute;
+  color: #79ADDC;
+  right: 0;
+}
+
+.contentThree {
+  max-width: 980px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: -80px auto 100px;
+}
+.contentThree .imageTwo {
+  width: 200px;
+  height: 287px;
+  background-image: url(../img/about-img/about-client-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contentThree .text-field-two {
+  width: 500px;
+  position: relative;
+  right: -275px;
+  top: -150px;
+}
+.contentThree .text-field-two .sub-text-two {
+  width: 385px;
+  height: 100px;
+  font-family: GillSansBI;
+}
+.contentThree .text-field-two .nameTwo {
+  font-size: 20px;
+  position: absolute;
+  color: #79ADDC;
+  right: 0;
+}
